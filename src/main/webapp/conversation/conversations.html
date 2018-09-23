@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Conversations</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="conversationcss.css">
+        
+    </head>
+    
+    <body>
+        <header> <h1 class="Headline">Conversations</h1>
+             
+            
+        </header>
+      
+            <div class="container">
+               
+      
+                <button class="btn" id="backButton" onclick="location.href='../index.html','../ mainscript.js';">
+                    Back
+                </button>
+                
+               
+            <div class="message-window">
+                
+              <ul id="contact-list" class="addperson-dropdown"></ul>
+                <Ul class="conversations" id="messages">
+
+                </Ul>
+            </div>
+
+                <form id="messageinput" onSubmit="return false;">
+                     Message:<br>
+                    <input id="textinput" size="100" maxlength="155" type="text" placeholder="Type your message"><br>
+                </form>
+            
+                <div>
+                    <button type="button" class="btn" id="sendbtn" onClick="sendMessage()">Send</button>
+                </div>
+                <div id="postFile">
+                    <input type="file" accept="image/*">
+                    <input type="button" value="Upload">
+                </div>
+             <!--   <div id="printFile">
+                    <button class="btn" id="sendtbn" onClick="postPicture()">Post Picture</button>
+                </div>
+                
+                <input type="file" onchange="previewFile()"><br>
+                <img src="" height="200" alt="Image preview...">
+               -->
+            </div>
+        
+            <script src="chat-js.js"></script>
+            <script src="mainscript.js"></script>
+           
+            
+       
+        </body>
+</html>

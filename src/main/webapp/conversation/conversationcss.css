@@ -1,0 +1,146 @@
+.body{
+    
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
+}
+
+.title{
+    font-size:200px;
+    align-self: center;
+}
+
+.container{
+    
+    display:flex;
+    height: 100%;
+    padding: 50px;
+    flex-direction: column;
+    align-self: center;
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
+    
+}
+.conversations{    
+    border-radius: 10px;
+    width:800px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x:hidden;  
+    background-color: #D3D3D3;
+}
+
+ul{
+   
+  
+}
+
+li{ 
+   padding:3px; 
+   background-color: deepskyblue;
+    border-radius: 25px;
+    min-width: 150px;
+    height:auto;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size:20px;
+    margin-top:2px;
+}
+
+ul:hover li {
+    opacity: .5;
+   
+}
+
+ul li:hover {
+    opacity: 1;
+}
+
+
+.img{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+
+.btn {
+    background: #f9f9f9;
+    border: 5px solid deepskyblue;
+   
+    border-radius: 5px;
+    margin-top:10px;
+    cursor: pointer;
+    width: 10%;
+    
+    color:deepskyblue;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+.Headline{
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    font-size:50px;  
+    align-self: center; 
+    padding:20px;
+}
+.users{
+     
+    width:300px;
+     height: 200px;
+    overflow: scroll;
+    overflow-x:hidden;
+    background-color: antiquewhite;
+    border-radius:25px;
+    
+}
+
+.user-li{
+    
+    max-width:60%
+}
+#username{ 
+  
+}
+
+#messages{
+  
+}
+#messageinput{
+    
+ 
+}
+
+#textinput{
+    
+   
+}
+
+
+#my_file {
+    display: none;
+}
+
+#get_file {
+    
+    border: 5px solid deepskyblue;
+   
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+    
+    color:deepskyblue;
+}
+#postFile{
+    
+    
+}
+
+
+
+.header{
+    
+    background: linear-gradient(to top right, #808080 -7%, #000000 105%);
+    height:100px;
+    margin-top:10px;
+    
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="chatcss.css">
+        
+    </head>
+    <body>
+  <header>
+            <div class="headerpic">
+                <img src="idavatar.png" width="99">
+             </div>
+             <h1 class="Headline"> Chattup</h1>
+             
+             
+             </header>
+        
+        <div class="container">
+            <div class="conversation-view">
+              
+         <form id="username" onSubmit="return false;">
+  
+  <input id="usernameInput" type="text" placeholder="Find friends"><br>
+        </form>
+                <button class="btn" id="addUser" onClick="addUser();setUser()">  Add Friend  </button>
+            
+               
+            <Ul class="users" id="users">
+                
+              
+             </Ul>
+               
+        </div>
+     
+        </div>
+     
+        <script src="mainscript.js"></script>
+    
+      
+    </body>
+</html>
